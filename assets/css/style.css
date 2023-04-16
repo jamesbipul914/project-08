@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+/* Header CSS */
+.main-header {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.navbar {
+    background-color: #dfdfdf;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo img {
+    width: 30%;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.menu li {
+    margin-right: 50px;
+}
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #141212;
+}
+
+.menu li a:hover {
+    color: ##8807df;
+    background-color: #09b303;
+    border-radius: 6px;
+}
+
+.banner {
+    background-image: url(../images/road.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-content h2 {
+    font-size: 65px;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    text-transform: capitalize;
+    color: green;
+    font-family: fantasy;
+}
+
+.banner-content p {
+    font-size: 22px;
+    font-family: 'Source Serif Pro', serif;
+    color: blue;
+    padding: 0 250px;
+    margin: 30px 0;
+}
+
+
+.btn {
+    text-decoration: none;
+    background-color: #370dcc;
+    padding: 15px 28px;
+    border-radius: 6px;
+    color: #fff;
+    text-transform: capitalize;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: #09b303;
+    color: #8807df;
+
+}
+
+/* Main content CSS */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Services */
+.services {
+    padding: 40px 0;
+}
+
+.services h2 {
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 40px;
+}
+
+.service-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-items .item {
+    width: 30%;
+    background-color: #2fe5f1;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.service-items .item h3 {
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.service-items .item img {
+    width: 100%;
+}
+
+.service-items .item .btn {
+    margin-top: 20px;
+}
+
+/* About CSS */
+
+#about {
+    margin:5% 0;
+    overflow: hidden;
+}
+#about h2 {
+    text-transform: capitalize;
+    font-size: 25px;
+    margin-bottom: 6px; 
+}
+.about {
+    width: 80%;
+    float: left;
+}
+.about-text p {
+    margin-bottom: 15px;
+    font-family: 'Source Serif Pro', serif;
+}
+.sidebar {
+    width: 20%;
+    float: left;
+}
+
+.menu-item li img {
+    width: 10px;
+    margin-right: 7px;
+}
+.menu-item li {
+    list-style: none;
+    border-bottom: 1px solid #EDEDED;
+    margin-bottom: 5px;
+    line-height: 25px;
+}
+.menu-item li:last-child {
+    border-bottom: 0;
+}
+.menu-item li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #040909;
+}
+
+.menu-item li a:hover {
+    color: #8807df;
+    background-color: #09b303;
+    border-radius: 6px;
+}
+
+#footer {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #226d1f;
+}
+.footer-text {
+    text-align: center;
+    color: #fff;
+    padding: 20px 0;
+}
+.footer-text h2 {
+    font-size: 25px;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    padding: 10px 0;
+    text-transform: capitalize;
+}
